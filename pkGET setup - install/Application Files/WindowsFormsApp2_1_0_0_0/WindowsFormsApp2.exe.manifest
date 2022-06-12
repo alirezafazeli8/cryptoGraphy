@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="WindowsFormsApp2.exe" version="1.0.0.0" publicKeyToken="9248e9e80028ff10" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="WindowsFormsApp2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="WindowsFormsApp2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowsFormsApp2.exe" size="67040">
+      <assemblyIdentity name="WindowsFormsApp2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ZS6D7Rti/CkO19DFNwmTuh5AFAyiH8Y+V7HBJ2htlGI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="WindowsFormsApp2.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-3FSSFHR\alire" issuerKeyHash="e2daf8aa7ba9c683902ea180e125b7059b88c284" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Rp0Ct2jugnK+L4QaHXKtUgWmiK6SrwkeirZKLLjlBgc=</DigestValue></Reference></SignedInfo><SignatureValue>hI42W27Ul0yU4HM1NrZn5WEjyERI9Ya2fa5lNSdVIklPkyILV0KhZeR6cO4GEEDUCSY/yRZNEwQX0byFg0+ACpWSM0+6DPe0yydqgyzSe1+406+jjmw/qDhJp9jyqH94nLb62OKGktdkit7JGd8v7T6hYNVLcOF/VwC4xwLzea4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qoZXCwIjn7H+8XWTmLtod4FGi1twykYD2ZZYsvgGtCYhamY2gmjhBaC0I7TP0RBWnwu9kC3wAVSir7UG0TczYfxWlQi2gzEyugPA5QA36z3QIrNHiEds8ERPiZ/P4dmKWfmNHw4TgC4yVzbrVxfUmoDMAfePIg7p7b1ZBnqHNDk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0706e5b82c4ab68a1e09af92ae88a60552ad721d1a842fbe7282ee68b7029d46" Description="" Url=""><as:assemblyIdentity name="WindowsFormsApp2.exe" version="1.0.0.0" publicKeyToken="9248e9e80028ff10" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-3FSSFHR\alire</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>DXt6/MFkPd9HPl9Dt7n4PCWkZclymb/RZWv8Y/0voPw=</DigestValue></Reference></SignedInfo><SignatureValue>G8xDnxFe0vp32C2IRNa05WrYaWSUVoUKl8y4ykmYzk/fHgE1fecCeQnlAueNF2SOdvYw5mIMgKy2iICOawP8keKENC3fug3NUMNQxAKsgdDQRuYoGQcjaOKxDfzKO5ofEHNkoAhAwk9idCfRtrvwzgvUbHApSh708pOiigACiww=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qoZXCwIjn7H+8XWTmLtod4FGi1twykYD2ZZYsvgGtCYhamY2gmjhBaC0I7TP0RBWnwu9kC3wAVSir7UG0TczYfxWlQi2gzEyugPA5QA36z3QIrNHiEds8ERPiZ/P4dmKWfmNHw4TgC4yVzbrVxfUmoDMAfePIg7p7b1ZBnqHNDk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQOSnaV3KGEbpKn17IJmETETANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADMARgBTAFMARgBIAFIAXABhAGwAaQByAGUwHhcNMjIwNTExMDUxMDAzWhcNMjMwNTExMTExMDAzWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADMARgBTAFMARgBIAFIAXABhAGwAaQByAGUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKqGVwsCI5+x/vF1k5i7aHeBRotbcMpGA9mWWLL4BrQmIWpmNoJo4QWgtCO0z9EQVp8LvZAt8AFUoq+1BtE3M2H8VpUItoMxMroDwOUAN+s90CKzR4hHbPBET4mfz+HZiln5jR8OE4AuMlc261cX1JqAzAH3jyIO6e29WQZ6hzQ5AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAl+3Y5DoFcSGhGBo/gHwx45Osp5RDianZd4CRTHz+Jq04zd6HM9J/bwWl4Wo+VAPeR+DUXvWFQ8KnqyTs1RJtD5N2IF/ogyIU6f7n7vMcDIIg8jvNfqsv9gZDJpTZSwsSm+5JBigV7WL8uxSTH/pftYonYi19GOFlZ7Uc9Wk6T/g=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
